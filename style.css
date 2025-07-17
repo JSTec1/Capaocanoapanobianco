@@ -9,13 +9,15 @@ header img{
  height:400px; /* Arredonda os cantos da imagem */
  box-shadow: 0 4px 8px(0, 0, 0, 0.2); /* Sombra suave */
  transition: transform 0.3s ease; /* Animação suave ao passar o mouse */
- background-color:rgb(32, 31, 30);
+ background-color:transparent;
  margin-top: -30px;
  
  align-items: center;
 
 
 }
+
+
 p{
     color: white;
     margin-bottom: 5px;
@@ -24,6 +26,7 @@ p{
 h1{
     color: white;
 margin-bottom: 20px;
+font-size: 50;
 }
 h2{
     color: white;
