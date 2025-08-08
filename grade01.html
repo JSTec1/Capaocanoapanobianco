@@ -34,10 +34,15 @@
 <body>
     <h1>Grade de Aulas</h1>
     <div class="grade-container">
-       <img src="https://res.cloudinary.com/dczj8gahc/image/upload/v1/grades/grade_manha" alt="Grade Manhã">
+    <img id="imgManha" alt="Grade Manhã">
+    <img id="imgNoite" alt="Grade Noite">
+</div>
 
-<img src="https://res.cloudinary.com/dczj8gahc/image/upload/v1/grades/grade_noite" alt="Grade Noite">
+<script>
+    const timestamp = new Date().getTime();
+    document.getElementById('imgManha').src = `https://res.cloudinary.com/dczj8gahc/image/upload/v1/grades/grade_manha?${timestamp}`;
+    document.getElementById('imgNoite').src = `https://res.cloudinary.com/dczj8gahc/image/upload/v1/grades/grade_noite?${timestamp}`;
+</script>
 
-    </div>
 </body>
 </html>
